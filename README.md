@@ -5,7 +5,7 @@ The overall architecture of the system includes:
 1. **Elasticsearch**: Used to index and search the Shakespeare collection.
 2. **Python code base**: To carry out tasks including index generation, data input, querying, text analysis, and similarity matching, the Python code interfaces with Elasticsearch.
 To run the system, I followed these instructions:
-I first started Elasticsearch on my local machine(csee-horizon client)  by navigating to the folder where I have the elastic search tar file and executed the below commands in the Linux command terminal as shown below to start the elastic search.
+I first started Elasticsearch on my local machine by navigating to the folder where I have the elastic search tar file and executed the below commands in the Linux command terminal as shown below to start the elastic search.
 cd elasticsearch-6.5.1/bin
 ./elasticsearch
  
